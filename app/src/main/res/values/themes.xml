@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Helium" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/helium_primary</item>
+        <item name="colorPrimaryDark">@color/helium_primary_dark</item>
+        <item name="colorAccent">@color/helium_accent</item>
+        <item name="android:colorBackground">@color/helium_background</item>
+        <item name="android:statusBarColor">@color/helium_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/helium_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    
+    <style name="Theme.Helium.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/toolbar_background</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    
+    <style name="Theme.Helium.UrlBar">
+        <item name="android:background">@color/url_bar_background</item>
+        <item name="android:textColor">@color/url_bar_text</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>
